@@ -34,7 +34,7 @@ It combines four key abilities:
 - Efficiently executing low-level tensor operations on CPU, GPU, or TPU.
 - Computing the gradient of arbitrary differentiable expressions.
 - Scaling computation to many devices, such as clusters of hundreds of GPUs.
-- Exporting programs ("graphs") to external runtimes such as servers, browsers, mobile and embedded devices.
+- Exporting programs ("graphs") to external runtimes such as servers, browsers, mobile, and embedded devices.
 
 Keras is the high-level API of TensorFlow 2: an approachable, highly-productive interface
 for solving machine learning problems,
@@ -52,7 +52,7 @@ and you can export your Keras models to run in the browser or on a mobile device
 The core data structures of Keras are __layers__ and __models__.
 The simplest type of model is the [`Sequential` model](/guides/sequential_model/), a linear stack of layers.
 For more complex architectures, you should use the [Keras functional API](/guides/functional_api/),
-which allows to build arbitrary graphs of layers, or [write models entirely from scratch via subclasssing](/guides/making_new_layers_and_models_via_subclassing/).
+which allows you to build arbitrary graphs of layers, or [write models entirely from scratch via subclasssing](/guides/making_new_layers_and_models_via_subclassing/).
 
 Here is the `Sequential` model:
 
